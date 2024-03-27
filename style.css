@@ -1,7 +1,7 @@
 :root {
-    --color-blue-header: #065E7C;
-    --color-blue-footer: #387E96;
-    --color-white: #FFF;
+    --color-blue-header: hsl(195, 91%, 25%);
+    --color-blue-footer: hsl(195, 46%, 40%);
+    --color-white: hsl(0, 0%, 100%);
 }
 
 * {
