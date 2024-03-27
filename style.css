@@ -157,6 +157,10 @@ aside ul li {
         margin-top: 2rem;
 }
 
+aside ul li:hover {
+    cursor: pointer;
+}
+
 aside ul li img {
     width: 9.4rem;
     height: 5.4rem;
