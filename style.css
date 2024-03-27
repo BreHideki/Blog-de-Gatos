@@ -35,6 +35,9 @@ header {
     gap: 1.6rem;
 
     grid-area: header;
+
+    --startY: -100%;
+    animation: move .2s;
     
 }
 
@@ -192,6 +195,9 @@ footer {
     background-color: var(--color-blue-footer);
 
     grid-area: footer;
+
+    --startY: 100%;
+    animation: move .2s;
 }
 
 footer p,
@@ -278,3 +284,9 @@ footer p,
         margin-right: 6.9rem;
     }
  }
+
+ @keyframes move {
+    from {
+        transform: translateY(var(--startY));
+    }
+}
