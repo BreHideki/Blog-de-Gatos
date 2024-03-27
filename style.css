@@ -149,7 +149,7 @@ aside ul li {
     grid-template-areas:
         "image title"
         "image text";
-    gap: 1rem;
+    gap: 0.1rem 1rem;
 
         width: 100%;
         height: 5.25rem;
